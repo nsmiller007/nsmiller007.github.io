@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nick S. Miller · NicTek Enterprises</title>
+  <meta name="description" content="Nick S. Miller — IT and systems guy behind NicTek Enterprises. Networks, security, and vehicle telemetry.">
+  <meta name="theme-color" content="#0a0a12">
+  <link rel="icon" href="assets/nictek-logo.jpg">
+  <meta property="og:title" content="Nick S. Miller · NicTek">
+  <meta property="og:image" content="https://nsmiller007.github.io/assets/nictek-logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <img class="logo" src="assets/nictek-logo.jpg" alt="NicTek Enterprises raccoon logo" width="220" height="220">
+    <h1>Nick S. Miller <span class="slash">/</span> <span class="grad">NicTek</span></h1>
+    <p class="tagline">IT &amp; systems · networks · security · vehicle telemetry</p>
+    <nav class="links">
+      <a class="btn primary" href="https://github.com/nsmiller007">GitHub</a>
+      <a class="btn" href="mailto:nicksmiller@gmail.com">Email</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About</h2>
+      <p>I'm an IT and systems guy who likes making things work — and then figuring out <em>why</em> they work.
+      NicTek Enterprises is my banner for side projects, tinkering, and tools I build for myself.</p>
+      <ul class="tags">
+        <li>Networks</li><li>Security</li><li>OBD-II / vehicle telemetry</li><li>Municipal IT</li><li>Linux</li><li>Python</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="section-title">Featured project</h2>
+      <a class="card project" href="https://github.com/nsmiller007/tacoma-obd-monitor">
+        <div class="project-head">
+          <span class="icon" aria-hidden="true">🚙</span>
+          <h3>tacoma-obd-monitor</h3>
+        </div>
+        <p>A Tacoma OBD-II monitor: Python pulls live data off the vehicle's diagnostic port and feeds an HTML dashboard.</p>
+        <div class="meta"><span class="lang"><i class="dot py"></i>Python</span><span class="lang"><i class="dot html"></i>HTML</span><span class="go">View on GitHub →</span></div>
+      </a>
+    </section>
+  </main>
+
+  <footer>© <span id="yr">2026</span> NicTek Enterprises</footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
