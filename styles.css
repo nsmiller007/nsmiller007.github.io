@@ -33,3 +33,4 @@ h2{margin:0 0 .75rem;font-size:1.3rem}
 .go{margin-left:auto;color:var(--cyan);font-weight:600}
 footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem;border-top:1px solid var(--line)}
 @media (max-width:520px){.hero{padding-top:2.5rem}.logo{width:150px;height:150px}.go{margin-left:0}}
+.certs{margin:.25rem 0 0;padding-left:1.2rem}.certs li{margin:.35rem 0}.certs strong{color:var(--cyan)}
